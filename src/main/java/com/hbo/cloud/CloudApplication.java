@@ -10,6 +10,8 @@ import java.util.Arrays;
 public class CloudApplication {
 
     public static void main(String[] args) {
+
+
         System.out.println("args = " + Arrays.deepToString(args));
         SpringApplication.run(CloudApplication.class, args);
     }
